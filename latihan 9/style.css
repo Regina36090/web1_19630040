@@ -1,0 +1,30 @@
+body { margin:0; padding:0; }
+.wrap {
+    width:980px;
+    margin:0 auto;
+    }
+.header {
+    height:140px;
+    margin-bottom:15px;
+    background-color:#0d7963;
+    }
+.content {
+    height:450px;
+    background-color:#0d7963;
+    float:left;
+    width:690px;
+        }
+.sidebar {
+    height:450px;
+    background-color:#0d7963;
+    float:right;
+    width:275px;
+        }
+.clear {
+    clear:both;
+        }
+.footer {
+    margin-top:15px;
+    background-color:#0d7963;
+    height:70px;
+}

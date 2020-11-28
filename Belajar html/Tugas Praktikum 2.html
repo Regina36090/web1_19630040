@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Penggunaan Tag Tabel</title>
+</head>
+<body>
+<table  width="70%" height=90px">
+<tr>
+<td style = background-color:red colspan = "3"><center><b><font color = white size = 5 > FORM INPUT BUKU
+</tr>
+<tr>
+    <td>NAMA</td>
+        <td> : <input type=”text” name=”nama”></td>
+        <td rowspan =25 type="disc">
+            <li><u>Home</u></li>
+            <li><u>About</u></li>
+            <li><u>Profile</u></li>
+            <li><u>Galeri</u></li>
+            <li><u>Gajih</u></li>
+        </td>
+<td rowspan =25><center><img src = "IMG_1615.jpg" width = 150 high = 200/></center></td>
+</tr>
+<tr>
+<td>JUDUL</td>
+<td> : <input type=”text” name=”judul”></td>
+</tr>
+<tr>
+<td>IMAGE</td>
+<form action="proses.php" method="post" enctype="multipart/form-data">
+      <td>: Upload <input type='file' name='foto' /></td>
+</tr>
+<tr>
+<td>PENGARANG</td>
+<td> : <input type=”text” name=”pengarang”></td>
+</tr>
+<tr>
+<td>PENERBIT</td>
+<td> : <input type=”text” name=”penerbit”></td>
+</tr>
+<tr>
+<td>TAHUN TERBIT</td>
+<td> : <input type=”text” name=”tahun terbit”></td>
+</tr>
+<tr>
+<td>STOK</td>
+<td> : <input type=”text” name=”stok”></td>
+</tr>
+<tr>
+<td>SINOPSIS </td>
+<form action="proses.php" method="get">
+    <td>: <textarea name="sinopsis" rows="10" cols="30"></textarea>
+    </td>
+</tr>
+<form action="proses.php" method="get"></form>
+	<td><button type="submit">SIMPAN</button></td>
+	<td><button type="reset">BATAL</button></td>
+
+</table>
+</body>
+</html>
